@@ -1,0 +1,68 @@
+/* To affect a type of HTML element*/
+h1 {
+    color: red;
+}
+body{
+    background-color: grey;
+}
+/*to target a specific element*/
+#header2{
+    color:green;
+}
+
+.longClassName{
+    color:crimson
+}
+
+.specialHeader{
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    float: left;
+    /*border: 1px solid black;*/
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+    /*margin: 25px;*/
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /*padding: 10px*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hidden{
+    display: none;
+}
+
+.blockLink{
+    text-decoration: none;
+    color: white;
+    background-color: lightblue;
+    width: 80px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    /*vertical-align: middle;*/
+    border: 1px white solid;
+    border-radius: 10px;
+
+}
+
+.blueHeading{
+    color:blue;
+}
+.redHeading{
+    color:red
+}
+
+
+
+
+
+
+
+
+

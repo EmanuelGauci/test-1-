@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+instructions:
+
+2 text boxes for user to input number and result(input.getelementid)
+4 buttons(plus, minus,times division which trigger fucntions 
+1 text box for output
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--link to bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <label for="Value 1">Value1: </label>
+    <input type="number" name="Value 1" id="Value1">
+    <br/>
+    
+    <label for="Value 2">Value2: </label>
+    <input type="number" name="Value 2" id="Value2">
+    <br>
+    
+    <button type = "button" onclick="Addition();">+</button>
+    <button type = "button" onclick="Subtraction();">-</button>
+    <button type = "button" onclick="Multiplication();">x</button>
+    <button type = "button" onclick="Subtraction();">-</button>
+
+    <br>
+
+    <label for="Answer">Answer: </label>
+    <input type="number" name="Answer" id="Answer">
+    
+    <br>
+    <script src= "../Javascript/Calculator.js"></script>
+</body>
